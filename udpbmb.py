@@ -1,14 +1,9 @@
 #!/usr/bin/python
-import sys
-import os
 import time
-import datetime
 import argparse
 import signal
 import threading
-import platform
 import socket
-
 
 def signal_handler(signal, frame):
     config.operation_status = False
